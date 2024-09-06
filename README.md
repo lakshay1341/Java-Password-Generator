@@ -1,19 +1,29 @@
-Java Password Generator
-This project is a Java program that generates a random password of a specified length. The password is generated using a combination of letters, numbers, and symbols. The user can specify the length of the password, as well as whether or not to include symbols.
-Getting Started
-To use the program, clone the repository to your local machine and then run the following command:
-java PasswordGenerator
-The program will prompt you to enter the length of the password and whether or not you want to include symbols. After you enter the desired options, the program will generate a random password and print it to the console.
-Example
-The following is an example of how to use the program:
-java PasswordGenerator 12 true
+# Java Password Generator
 
-This command will generate a 12-character password that includes symbols.
+## Overview
+This project is a **Java-based password generator** that creates random passwords using a mix of **uppercase letters, lowercase letters, and digits**.
 
-## Requirements
+## Features
+- **Random Password Generation**: Generates a password of specified length.
+- **Character Set**: Uses a combination of uppercase letters, lowercase letters, and digits.
 
-* Java 8 or higher
-
-## Contact
-
-If you have any questions or feedback, please contact me at lakshaychaudhary2003@gmail.com
+## Usage
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/lakshay1341/Java-Password-Generator.git
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd Java-Password-Generator
+    ```
+3. **Compile the Java file**:
+    ```bash
+    javac pass_gen.java
+    ```
+4. **Run the program**:
+    ```bash
+    java PasswordGenerator
+    ```
+    
+## License
+This project is licensed under the MIT License.
